@@ -45,5 +45,7 @@ export class ProductPage {
     presionarDelete() {
         cy.get(this.deleteOk).click();
     }
-    
+    obtenerNombre(nombre){
+        return cy.contains(nombre).should("not.exist")
+    }
 }

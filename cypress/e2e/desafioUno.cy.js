@@ -42,6 +42,6 @@ describe('template spec', () => {
     productPage.presionarDelete();
     productPage.cerrarModal();
     productPage.buscarProducto(dataProduct.productos.producto1.name);
-    cy.contains(dataProduct.productos.producto1.name).should("not.exist")
+    productPage.obtenerNombre(dataProduct.productos.producto1.name);
   })
 })
