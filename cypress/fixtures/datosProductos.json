@@ -1,0 +1,16 @@
+{
+    "productos": {
+        "producto1": {
+            "name": "Pruebas Uno",
+            "price": "69.69",
+            "url": "https://pulsogamer.com.py/12194-thickbox_default/mouse-gamer-logitech-g305-rgb-wireless-lila.jpg",
+            "id": 199601
+        },
+        "producto2": {
+            "name": "Buzo Negro",
+            "price": "69.69",
+            "url": "https://pulsogamer.com.py/12194-thickbox_default/mouse-gamer-logitech-g305-rgb-wireless-lila.jpg",
+            "id": 199602
+        }
+    }
+}
